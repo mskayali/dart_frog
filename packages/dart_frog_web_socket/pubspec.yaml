@@ -11,7 +11,10 @@ environment:
 
 dependencies:
   dart_frog:
-    path: ../dart_frog
+    git:
+      url: https://github.com/mskayali/dart_frog.git
+      ref: main # branch name
+      path: packages/dart_frog
   shelf_web_socket: ^1.0.3
   web_socket_channel: ^2.0.0
 
